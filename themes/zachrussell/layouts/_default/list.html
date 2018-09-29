@@ -1,13 +1,19 @@
 {{ define "main" }}
+<section class="hero green darken-2 white-text">
   <div class="container">
-    <div class="row ">
+    <h1>Blog</h1>
+  </div>
+</section>
+<div class="container">
+  <div class="row ">
     {{ range .Paginator.Pages }}
-      <div class="col s12 m4">
+    <div class="col s12 m4">
       <article class="card">
         {{- partial "summary.html" . -}}
       </article>
-      {{ end }}
     </div>
+    {{ end }}
   </div>
-  {{- template "_internal/pagination.html" . -}}
+</div>
+{{- template "_internal/pagination.html" . -}}
 {{end}}
