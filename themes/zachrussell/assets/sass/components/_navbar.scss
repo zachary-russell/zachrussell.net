@@ -123,6 +123,7 @@ nav {
     a {
       transition: background-color .3s;
       font-size: $navbar-font-size;
+      font-weight: 600;
       color: $navbar-font-color;
       display: block;
       padding: 0 15px;
@@ -138,9 +139,22 @@ nav {
           line-height: inherit;
         }
       }
-
+      &:after {
+          content: '';
+          display: block;
+          background: transparent;
+          height: 5px;
+          position: relative;
+          top: -5px;
+          visibility: hidden;
+          transition: all .3s ease;
+        }
       &:hover {
-        background-color: rgba(0,0,0,.1);
+        color: color("green", "base");
+        &:after {
+          visibility: visible;
+          background: #d3d3d3;
+        } 
       }
     }
 

@@ -1,0 +1,38 @@
+footer {
+  padding: 30px 0;
+  h5 {
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    font-weight: 600;
+  }
+  a {
+    color: #fff;
+    font-weight: 600;
+    transition: all .3s;
+    border-bottom: 2px solid transparent;
+    &:hover {
+      border-color: white;
+    }
+  }
+  form {
+    input.green-text {
+      font-weight: 800!important;
+      padding-left: 10px!important;
+      color: color("green", "darken-1")!important;
+      &::placeholder {
+        color: #444!important;
+        font-weight: 600!important;
+
+      }
+    }
+    button.orange {
+      &:hover {
+        background: color("orange", "darken-1")!important;
+      }
+    }
+    input, button {
+      height: 50px!important;
+      font-weight: 500;
+    }
+  }
+}
