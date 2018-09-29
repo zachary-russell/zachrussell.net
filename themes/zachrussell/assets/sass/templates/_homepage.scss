@@ -1,0 +1,21 @@
+.brand-bar {
+  padding: 35px 0;
+  h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 35px;
+    &:after {
+      content: '';
+      display: block;
+      width: 50px;
+      height: 4px;
+      background: color("green", "base");
+      margin: 10px auto 0 auto;
+    }
+  }
+  img {
+    max-height: 75px;
+    width: auto;
+  }
+}

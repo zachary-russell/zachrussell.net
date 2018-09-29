@@ -7,31 +7,31 @@ footer {
   }
   a {
     color: #fff;
-    font-weight: 600;
-    transition: all .3s;
-    border-bottom: 2px solid transparent;
+    transition: all 0.3s;
+    border-bottom: 1px solid transparent;
     &:hover {
       border-color: white;
     }
   }
   form {
     input.green-text {
-      font-weight: 800!important;
-      padding-left: 10px!important;
-      color: color("green", "darken-1")!important;
+      font-weight: 800 !important;
+      padding-left: 10px !important;
+      color: color('green', 'darken-1') !important;
       &::placeholder {
-        color: #444!important;
-        font-weight: 600!important;
-
+        color: #666 !important;
+        font-weight: 600 !important;
       }
     }
     button.orange {
       &:hover {
-        background: color("orange", "darken-1")!important;
+        background: color('orange', 'darken-1') !important;
+        margin-top: 0;
       }
     }
-    input, button {
-      height: 50px!important;
+    input,
+    button {
+      height: 50px !important;
       font-weight: 500;
     }
   }

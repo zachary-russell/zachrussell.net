@@ -1,7 +1,27 @@
 .hero {
-  padding: 100px 0;
+  padding: 75px 0;
   display: flex;
   align-items: center;
   color: white;
   text-align: center;
+  .button-bar {
+    a {
+      width: 200px;
+      &:first-child {
+        margin-right: 10px;
+      }
+    }
+  }
+  a {
+    font-weight: 600;
+    &.plain {
+      color: white;
+      background: transparent;
+      border: 2px solid white;
+      &:hover {
+        background: white;
+        color: color('green', 'base');
+      }
+    }
+  }
 }
