@@ -1,3 +1,32 @@
 languageCode = "en-us"
 title = "Zach Rusell: Web Developer & SEO from Philadelphia"
 theme = "zachrussell"
+
+[menu]
+  [[menu.main]]
+    identifier = "About Me"
+    title = "About Me"
+    name = "About Me"
+    url = "/about-me/"
+    weight = "1"
+
+  [[menu.main]]
+    identifier = "WordPress Development"
+    title = "WordPress Development Services"
+    name = "WordPress Development"
+    url = "/wordpress-development"
+    weight = "2"
+
+  [[menu.main]]
+    identifier = "Blog"
+    title = "Blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = "3"
+
+  [[menu.main]]
+    identifier = "Contact"
+    title = "Contact Me"
+    name = "Contact"
+    url = "/contact"
+    weight = "999"

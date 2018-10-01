@@ -5,10 +5,12 @@
         <a href=# class="brand-logo black-text">Zachary Russell</a>
         <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="hide-on-med-and-down right green-text">
-          <li><a href=#>About Me</a></li>
-          <li><a href=#>WordPress Development</a></li>
-          <li><a href=#>Blog</a></li>
-          <li><a href=#>Contact Me</a></li>
+          {{ $currentPage := . }}
+          {{ range .Site.Menus.main }}
+            <li><a href="{{ .URL }}" title="{{ .Title }}">
+            {{- .Name -}}
+            </a></li>
+          {{ end }}
         </ul>
       </div>
     </div>
