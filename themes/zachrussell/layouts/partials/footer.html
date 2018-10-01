@@ -4,11 +4,11 @@
       <div class="col m3">
         <h5>Site</h5>
         <ul>
-          <li><a href=#>Home</a></li>
-          <li><a href=#>About</a></li>
-          <li><a href=#>Articles</a></li>
-          <li><a href=#>Portfolio</a></li>
-          <li><a href=#>Contact</a></li>
+          {{ range .Site.Menus.main }}
+            <li>
+              <a href="{{ .URL }}">{{- .Name -}}</a>
+            </li>
+          {{ end }}
         </ul>
       </div>
       <div class="col m4">
