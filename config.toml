@@ -1,6 +1,12 @@
 languageCode = "en-us"
 title = "Zach Rusell: Web Developer & SEO from Philadelphia"
 theme = "zachrussell"
+canonifyURLs = true
+enableRobotsTXT = true
+googleAnalytics = "UA-34675191-1"
+[permalinks]
+    post = "/blog/:title/"
+
 
 [menu]
   [[menu.main]]
