@@ -7,8 +7,11 @@
   .button-bar {
     a {
       width: 200px;
-      &:first-child {
-        margin-right: 10px;
+      margin-bottom: 10px;
+      @media #{$medium-and-up} {
+        &:first-child {
+          margin-right: 10px;
+        }
       }
     }
   }

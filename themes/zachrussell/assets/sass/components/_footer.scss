@@ -16,7 +16,9 @@ footer {
   form {
     input.green-text {
       font-weight: 800 !important;
-      padding-left: 10px !important;
+      @media #{$medium-and-up} {
+        padding-left: 10px !important;
+      }
       color: color('green', 'darken-1') !important;
       &::placeholder {
         color: #666 !important;
@@ -24,6 +26,8 @@ footer {
       }
     }
     button.orange {
+      width: 100%;
+      display: block;
       &:hover {
         background: color('orange', 'darken-1') !important;
         margin-top: 0;
