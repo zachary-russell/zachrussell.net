@@ -24,7 +24,7 @@
     <div class="container">
       <h2>Recent Articles</h2>
       <div class="articles">
-        {{ range first 3 (where .Pages "Section" "posts") }}
+        {{ range first 10 (where .Pages "Section" "blog") }}
         <div class="article">
           <div class="byline">{{ .Date.Month }} {{ .Date.Day }}, {{ .Date.Year }} | Category</div>
           <h3><a href={{ .Permalink }}>{{ .Title }}</a></h3>
