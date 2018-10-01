@@ -1,5 +1,6 @@
 ---
 title: 'Google Cloud for Bootstrapped Businesses'
+date: 2018-06-14
 ---
 
 Lets face it, Google is everywhere. Google Cloud Platform, which is it's competitor to AWS has been growing aggressively over the past several years to become a leader in the space. If you run, or are thinking about creating a bootstrapped business, you should seriously consider using Google Cloud as your technology partner.

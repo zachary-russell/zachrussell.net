@@ -1,6 +1,6 @@
 ---
 title: 'Moving from OS X to Windows for Web Development'
-date: 2018-10-01T09:51:03-04:00
+date: '2018-06-19'
 ---
 
 I have been a Mac user for most of my life and use a MacBook Pro as my daily driver for web development and general business tasks. Apple was a no brainier because of the superior build quality, integrated UNIX and app ecosystem. Since 2013 I used a 15" MacBook Pro and was absolutely thrilled with it. After 4 years of very heavy use it started to crap out (battery life sucked, graphics were glitching, etc..). So, I took it to the Apple store and looked to see what it would take to get repaired. After a diagnostic, they said they would need to _literally_ replace everything but the hard drive and that would cost something around $600. That price was reasonable to me, the only issue is I would be 3-5 business days without a computer, which is not an option since I run my business from it. So I decided to get a maxed out 13" MacBook Pro to try out while it was getting repaired, as I could sell my 15" if I liked the new 13" version.
