@@ -1,5 +1,6 @@
 languageCode = "en-us"
 title = "Zach Rusell: Web Developer & SEO from Philadelphia"
+baseURL = "https://zachrussell.net"
 theme = "zachrussell"
 canonifyURLs = true
 enableRobotsTXT = true
