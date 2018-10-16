@@ -4,7 +4,6 @@ baseURL = "https://zachrussell.net"
 theme = "zachrussell"
 canonifyURLs = true
 enableRobotsTXT = true
-googleAnalytics = "UA-34675191-1"
 [permalinks]
     post = "/blog/:title/"
 
