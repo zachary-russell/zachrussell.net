@@ -41,15 +41,11 @@
     "@type": "WebPage",
     "@id": "{{ .Permalink }}"
   },
-  {{ if ge (.Param "lua.image.width") 696 -}}
   "image": {
     "@type": "ImageObject",
     "url": "{{ .Param "lua.image.url" | absURL }}",
-    "width": {{ .Param "lua.image.width" }},
-    "height": {{ .Param "lua.image.height" }}
   },
   
-  {{- end }}
   "genre": "{{ .Type }}",
   {{ with .Params.tags -}}
   "keywords": "{{ delimit . ", " }}",
