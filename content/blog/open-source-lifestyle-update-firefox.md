@@ -1,6 +1,8 @@
 ---
 title: 'Open Source Lifestyle Update: Firefox'
 date: 2018-01-08
+categories:
+  - Tools
 ---
 
 As described in my [previous post](http://zachrussell.net/living-open-source-lifestyle/), I am actively seeking to live a more open source lifestyle by using open source software whenever it is practical. I am proud to announce that I have finally switched to Firefox as my primary web browser.

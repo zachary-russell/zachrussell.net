@@ -1,6 +1,8 @@
 ---
 title: 'Getting started with Kubernetes on GKE'
 date: '2018-05-30'
+categories:
+  - Google Cloud
 ---
 
 **Note:** This article is a companion article to May's GDG Cloud Philly meetup [event](https://www.meetup.com/gdgcloud-philly/events/250685961/). This article should still serve as a standalone guide to Kubernetes. If i'm missing something, contact me.

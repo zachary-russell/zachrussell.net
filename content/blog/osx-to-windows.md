@@ -1,5 +1,7 @@
 ---
 title: 'Moving from OS X to Windows for Web Development'
+categories:
+  - Tools
 date: '2018-06-19'
 ---
 

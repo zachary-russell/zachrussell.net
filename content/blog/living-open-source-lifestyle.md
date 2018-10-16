@@ -1,6 +1,8 @@
 ---
 title: 'Living Open Source Lifestyle'
 date: 2017-09-12
+categories:
+  - Tools
 ---
 
 It is no surprise that Open Source Software plays a significant impact on my life. I wouldn't bee able to run my business let alone feed myself if it wasn't for the existence of OSS. Contributing to the Open Source community doesn't necessarily have to be in code, it can be by sharing software with everyone - which is what makes the OSS community special. In this article, I want to share Open Source things I use every day and things that I use that have Open Source alternatives.

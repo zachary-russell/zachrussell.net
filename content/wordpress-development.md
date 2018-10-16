@@ -1,6 +1,8 @@
 ---
 title: 'WordPress Development'
 date: 2018-09-29T16:39:00-04:00
+seo_title: Expert WordPress Developer in Philadelphia | Zach Russell
+description: Are you looking to hire a WordPress expert in Philadelphia? I have over 8 years experience building WordPress sites for small businesses and Fortune 500 companies alike. Hire me today!
 ---
 
 I have been building websites almost exclusively for 7 years. In that time, I have built sites for small businesses to Fortune 1000 companies alike. I am also a subject matter expert on WordPress and have been published on popular WordPress publications Tuts+ and Torque Magazine and I have spoken at several meetups such as SEO Grail Philadelphia and Front End Philly.

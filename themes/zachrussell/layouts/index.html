@@ -26,7 +26,7 @@
       <div class="articles">
         {{ range first 5 (where .Pages "Section" "blog") }}
         <div class="article">
-          <div class="byline">{{ .Date.Month }} {{ .Date.Day }}, {{ .Date.Year }} | Category</div>
+          <div class="byline">{{ .Date.Month }} {{ .Date.Day }}, {{ .Date.Year }} | {{ range .Params.categories }}{{ . }}{{ end }}</div>
           <h3><a href={{ .Permalink }}>{{ .Title }}</a></h3>
         </div>
         {{ end }}

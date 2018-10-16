@@ -1,5 +1,7 @@
 ---
 title: 'Google Cloud for Bootstrapped Businesses'
+categories:
+  - Google Cloud
 date: 2018-06-14
 ---
 
