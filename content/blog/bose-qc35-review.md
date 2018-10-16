@@ -6,7 +6,6 @@ categories:
 slug: bose-qc-35-review
 description: I have owned the Bose Quiet Comfort 35 headphones for over 2 years. Learn about my experience with them.
 seo_title: 'Bose QC-35 Review: My Secret Productivity Tool - Zach Russell'
-draft: true
 ---
 
 Back in 2016 I went through a renissance of sorts when it comes to my productivity.
