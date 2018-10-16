@@ -41,10 +41,6 @@
     "@type": "WebPage",
     "@id": "{{ .Permalink }}"
   },
-  "image": {
-    "@type": "ImageObject",
-    "url": "{{ .Param "lua.image.url" | absURL }}",
-  },
   
   "genre": "{{ .Type }}",
   {{ with .Params.tags -}}
