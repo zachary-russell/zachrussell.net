@@ -37,3 +37,14 @@ googleAnalytics = "UA-34675191-1"
     name = "Contact"
     url = "/contact"
     weight = "999"
+[author]
+name = "Zachary Russell"
+
+[params]
+  desciption = "Zachary Russell is an Entrepreneur, Software Engineer & SEO from Philadelphia. Learn more about Zach today"
+  [params.publisher]
+    name = "Zachary Russell"
+  [params.publisher.logo]
+    url = "/images/zachary-russell.jpeg"
+    width = 200
+    height = 200
