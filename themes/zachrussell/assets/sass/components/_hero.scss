@@ -17,7 +17,6 @@
   .button-bar {
     a {
       width: 200px;
-      margin-bottom: 10px;
       @media #{$medium-and-up} {
         &:first-child {
           margin-right: 10px;
