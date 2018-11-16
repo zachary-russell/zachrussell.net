@@ -2,7 +2,18 @@
   padding: 50px 0;
   display: flex;
   align-items: center;
+  text-align: center;
   color: white;
+  .row {
+    flex-direction: column-reverse;
+
+    @media #{$medium-and-up} {
+      flex-direction: row;
+    }
+  }
+  @media #{$medium-and-up} {
+    text-align: left;
+  }
   .button-bar {
     a {
       width: 200px;
