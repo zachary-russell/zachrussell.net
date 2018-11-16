@@ -4,6 +4,16 @@ baseURL = "https://zachrussell.net"
 theme = "zachrussell"
 canonifyURLs = true
 enableRobotsTXT = true
+[params]
+  description= "Zachary Russell is an Entrepreneur, Software Engineer & SEO from Philadelphia. Learn more about Zach today"
+  [params.publisher]
+    name = "Zachary Russell"
+  [params.publisher.logo]
+    url = "/images/zachary-russell.jpeg"
+    width = 60 
+    height = 60
+    
+
 [permalinks]
     post = "/blog/:title/"
 
@@ -38,14 +48,4 @@ enableRobotsTXT = true
     weight = "999"
 [author]
 name = "Zachary Russell"
-
-[params]
-  desciption = "Zachary Russell is an Entrepreneur, Software Engineer & SEO from Philadelphia. Learn more about Zach today"
-  [params.publisher]
-    name = "Zachary Russell"
-  [params.publisher.logo]
-    url = "/images/zachary-russell.jpeg"
-    width = 60 
-    height = 60
-    
 
