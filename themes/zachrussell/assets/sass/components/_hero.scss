@@ -3,7 +3,6 @@
   display: flex;
   align-items: center;
   color: white;
-  text-align: center;
   .button-bar {
     a {
       width: 200px;
@@ -23,7 +22,7 @@
       border: 2px solid white;
       &:hover {
         background: white;
-        color: color('green', 'base');
+        color: color("green", "base");
       }
     }
   }
