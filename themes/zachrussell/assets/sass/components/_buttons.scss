@@ -70,12 +70,13 @@
   text-align: center;
   letter-spacing: 0.5px;
   @extend .z-depth-1;
-  transition: all 0.2s;
+  transition: all 0.2s ease-in-out;
   cursor: pointer;
   &:hover {
     background-color: $button-raised-background-hover;
     @extend .z-depth-1-half;
     margin-top: -2px;
+    margin-bottom: 2px;
   }
 }
 
