@@ -5,24 +5,26 @@ date: 2018-09-29T16:21:11-04:00
 
 {{< figure src="/images/zachary-russell.jpg" alt="Zach Russell" class="align-right" >}}
 
-I am Zach Russell and this is my personal website. I’m a 25-year-old entrepreneur, currently running a web development and online marketing firm, ProTech Internet Group. I live in Philadelphia, Pennsylvania with my girlfriend, Moriah and have recently adopted 2 cats, Greedo & Sterling.
+I am an entrepreneur obsessed with growing businesses through technology. With a strong background in both software development and SEO, I approach problems from both a marketing and tech point of view to deliver measurable results. 
 
-## Building Websites
+## ProTech Internet Group
+In 2011 I decided to give being my own boss a try and started [ProTech Internet Group](https://protechig.com). I started small, building websites for people on eLance and quickly gained a working knowledge of WordPress. Since then I have nurtured ProTech into a thriving business with a team of 5, and an aggressive growth outlook for the next several years.
 
-I started building websites when I was around 10 years old. It started off with general curiosity of the web and how the internet worked. Through trial-and-error I taught myself HTML and basic CSS building websites through now antique website builders like Angelfire and FreeWebs.
+## WordPress
+While doing gigs at eLance I learned that WordPress was a very in-demand skill. I quickly learned as much as I could about building custom themes & plugins as well as how to troubleshoot common errors.
 
-## Learning Online Marketing
+About 50% of the work I do now is using WordPress in some way. I do a good amount of custom theme and plugin development and I have taken a keen interest in working with the WP-API.
 
-I fell into online marketing by accident. I was 17, and had a family friend that ran a local roofing company. He was paying what seemed to be an outrageous amount of money at the time to a local search marketing firm and wasn’t getting the results he desired. I thought I may be able to do it better.
+[Learn more About my WordPress Services](/wordpress-development)
 
-During the course of a summer, I built him a website and started learning the basics of Local SEO – Google Places, citations, directories, all of the goodies. By the end of that summer I had the site I built ranking higher than the site the marketing firm built was. I now knew I had something here, business wise.
+## SEO
+I started dabbling with SEO when I was 17. A family friend ran a home improvement company and was paying an agency what seemed like an outrageous amount of money, and was getting no results. As an inquisitive person, I thought I could learn SEO and help them out. It worked! Over the course of the summer I was able to get them ranked at the top for top searches throughout the whole region. This helped me come to the realization that I could offer this to other businesses.
 
-## Running ProTech Internet Group
+I have grown immensely in my knowledge about SEO and have specialized in Technical SEO. I have spoken at several local events about SEO and have done a collaboration [webinar with SEMRush](https://www.youtube.com/watch?v=3Id7wkP5F60&t=738s). 
 
-The summer after I graduated high school, I started my first company – ProTech Internet Group. I didn’t really make any money the first couple of months, but then I discovered eLance. I never really made that much money from eLance, but I made enough to live on and was able to get my first apartment.
+Currently, I am the primary Technical SEO consultant for both Under Armour and MyFitnessPal. In this capacity I have helped them identify critial issues and recouping millions of dollars in lost revenues as well as implement automated tooling to help them identify SEO errors before they launch. 
 
-From there, I started attending some local networking events and started to meet some amazing people. I was able to get work where I could both learn more about the industry and make some money at the same time. Now i’m fortunate enough to have an office in Center City along with more than enough work to keep me and my small, yet talented team busy.
+In the future, I plan to release my own SEO tools and courses based on my experience to help other digital marketers do their job more effectively.
 
-## Other Ventures
-
-While I love building websites and helping businesses get more customers, I have the entrepreneurial itch to get into some new ventures. While i’m working on quite a few things, my biggest current side-project is WP Temple. Right now its just a small, simple site I hope to grow it into a thriving WordPress community offering free and premium WordPress educational content as well as high quality themes.
+## My Personal Life
+I am a proud Philly native currently living in Northern Liberties with my fiancee Moriah and our 3 cats; Greedo, Sterling, and Catty. I enjoy cooking and playing video games - mostly League of Legends of late. 
