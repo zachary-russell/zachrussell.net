@@ -1,5 +1,5 @@
 ---
-title: "Get in Toch!"
+title: "Get in Touch!"
 seo_title: "Contact Me - Zachary Russell"
 date: 2018-09-29T11:13:51-04:00
 ---
