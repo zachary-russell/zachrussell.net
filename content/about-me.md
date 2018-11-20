@@ -1,5 +1,7 @@
 ---
 title: 'About Zach Russell'
+seo_title: 'About Me - Zachary Russell'
+description: 'Zachary Russell is a Philly-based entrepreneur focusing on software Development & SEO. Learn more about Zach today!'
 date: 2018-09-29T16:21:11-04:00
 ---
 
