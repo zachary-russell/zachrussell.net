@@ -24,7 +24,7 @@ There is no real solution to dealing with latency in WordPress. The best thing t
 
 ### Updates & Security
 
-WordPress is constantly getting updates.
+WordPress is constantly getting updates for both new features and to plug security vulnerabilities. Realisitcally this means that you should be updating your site _at least_ weekly. If there is a security vulnerability it is your responsibility to know that it exists and that there is a patch available to fix it. WordPress does have support for things like auto-updating minor releases, which helps, but it isn't the answer to all the issues. What if this update breaks the site?
 
 ## The benefits of a Static Site Generator
 
