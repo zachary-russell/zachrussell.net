@@ -1,5 +1,5 @@
 ---
-title: 'Bose Qc35 Review: My Secret Productivity Tool'
+title: 'Bose QC-35 Review: My Secret Productivity Tool'
 date: 2018-10-16T08:58:28-04:00
 categories:
   - Productivity
