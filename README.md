@@ -1,3 +1,3 @@
-# zachrussell.net
+# Zach Russell's Website
 
-Hugo website for ZachRussell.net
+Hugo Website for [ZachRussell.net](https://zachrussell.net)
