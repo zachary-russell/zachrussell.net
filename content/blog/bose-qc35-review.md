@@ -9,6 +9,7 @@ seo_title: 'Bose QC-35 Review: My Secret Productivity Tool - Zach Russell'
 lua:
   image:
     url: '/images/bose-qc-35.jpeg'
+header_image: '/images/productivity.jpg'
 ---
 
 Back in 2016 I went through a renissance of sorts when it comes to my productivity.
