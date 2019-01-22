@@ -1,6 +1,11 @@
 ---
 title: "Why I'm Switching to a Static Site Generator and you should too."
-date: 2019-01-22T11:17:44-05:00
+date: 2019-01-22
+categories:
+  - Development 
+slug: switching-to-static-site-generators
+description: "After years of using traditional CMSs like WordPress i'm switching to using SSGs more often. Learn why i'm making the switch"
+seo_title: "Why I switched from WordPress to Hugo | Static Site Generators"
 ---
 
 For almost the past decade my go-to tool for building a website has been WordPress. WordPress is an amazing platform for building websites with a diverse ecosystem of themes & plugins along with a vibrant community. A few months ago I started to experiment with Static Site Generators (SSGs). I really enjoyed working with them. I have since moved several of my personal and professional sites over to [Hugo](https://gohugo.io) and plan on relying on them much more moving forward.
