@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/zacharyrussell
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://zachrussell.net
+  * I am zacharyrussell (https://keybase.io/zacharyrussell) on keybase.
+  * I have a public key ASDQ2YtrcVEh983vEXaWy3zj1k_-ZJI-_gRix1a1VpArtwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120d0d98b6b715121f7cdef117696cb7ce3d64ffe64923efe0462c756b556902bb70a",
+      "host": "keybase.io",
+      "kid": "0120d0d98b6b715121f7cdef117696cb7ce3d64ffe64923efe0462c756b556902bb70a",
+      "uid": "fcec5f8ced0636067d64cbe22c9b6a19",
+      "username": "zacharyrussell"
+    },
+    "merkle_root": {
+      "ctime": 1549164156,
+      "hash": "9d344e89bf1a035ef7b424f78183d5750f184a1b1a5d95d08e50d6e73926bd814c09abe77abfdf3af27e0d4d9dd3db66e0b2f2621071d155a4bbb652e86d90af",
+      "hash_meta": "e44d3262a0ae61992953dccd0a30dcf21edd00f3c73bda95ff31cfba761fb28f",
+      "seqno": 4686495
+    },
+    "service": {
+      "entropy": "5TQegRcAHktOo/rVRQQigkKF",
+      "hostname": "zachrussell.net",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.13.2"
+  },
+  "ctime": 1549164162,
+  "expire_in": 504576000,
+  "prev": "b22801928c8f1fe66dd5a6adc7b386924679ffe24711fe3ac1c63730f2acbe9f",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg0NmLa3FRIffN7xF2lst849ZP/mSSPv4EYsdWtVaQK7cKp3BheWxvYWTESpcCBsQgsigBkoyPH+Zt1aatx7OGkkZ5/+JHEf46wcY3MPKsvp/EILWwPMuupjVEtiMt2S0pdm9R87lAtijUd0qrwuK+DLU+AgHCo3NpZ8RAWlb4jLsdj42j93njLwFP7iAg3GYlqAMc3rhCWiBgxqX0cZT1pBvhgwwqDJTR+X8zBqDF1x80Y2AEcWG0aAQKCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPCrpouHS8+da3FUpO/cnUarqiih8A+/bpssU8SKV6GXo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/zacharyrussell
+
+==================================================================
