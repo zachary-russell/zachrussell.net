@@ -110,7 +110,7 @@ img {
   background: white;
   @media (min-width: 900px) {
     box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.5);
-    margin-top: -150px;
+    margin-top: -75px;
     border-radius: 5px;
   }
 }
@@ -119,7 +119,7 @@ html {
   letter-spacing: 0.5px;
 }
 .fh {
-  height: calc(100vh - 70px);
+  height: calc(100vh);
 }
 .hero {
   h3 {
@@ -133,4 +133,31 @@ html {
     line-height: 0.9;
     font-weight: 600;
   }
+}
+header {
+  .container {
+    width: 100%;
+  }
+}
+
+navbar {
+  transition: all 1s;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  box-shadow: none;
+}
+.navbar-stick nav {
+  position: fixed;
+  top: -70px;
+}
+.navbar-stick.show nav {
+  top: 0;
+  transition: all 1s ease;
+  transform-origin: top;
+  transform: scaleY(1);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 }

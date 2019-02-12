@@ -1,11 +1,12 @@
 {{ define "main" }}
-<section style="background: url('{{ $.Param "header_image" }}')" class="hero blue darken-3">
+<section class="hero blue darken-3">
+	<h1 class="center">{{ .Title }}</h1>
 </section>
 <article>
   <div class="container">
 	  <div class="row post-content">
+		<img src=" {{ $.Param "header_image" }}" />
 		  <div class="col s12 l10 offset-l1">
-			 <h1>{{ .Title }}</h1>
 			 {{ .Content }}
 		  </div>
 	  </div>
