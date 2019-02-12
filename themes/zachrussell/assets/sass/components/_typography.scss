@@ -6,11 +6,11 @@ html {
   line-height: 1.5;
 
   @media only screen and (min-width: 0) {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   @media only screen and (min-width: $medium-screen) {
-    font-size: 16x;
+    font-size: 18x;
   }
 
   @media only screen and (min-width: $large-screen) {

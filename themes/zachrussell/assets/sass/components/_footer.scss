@@ -1,7 +1,7 @@
 footer {
   padding: 30px 0;
   h5 {
-    border-bottom: 3px solid color('green', 'darken-3');
+    border-bottom: 3px solid color("blue", "darken-4");
     padding-bottom: 5px;
     font-weight: 600;
   }
@@ -19,7 +19,7 @@ footer {
       @media #{$medium-and-up} {
         padding-left: 10px !important;
       }
-      color: color('green', 'darken-1') !important;
+      color: color("green", "darken-1") !important;
       &::placeholder {
         color: #666 !important;
         font-weight: 600 !important;
@@ -29,7 +29,7 @@ footer {
       width: 100%;
       display: block;
       &:hover {
-        background: color('orange', 'darken-1') !important;
+        background: color("orange", "darken-1") !important;
         margin-top: 0;
       }
     }
@@ -41,7 +41,7 @@ footer {
   }
   .m5 {
     border: 3px solid white;
-    background: color('green', 'darken-2');
+    background: color("blue", "darken-3");
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
   }
 }

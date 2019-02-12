@@ -2,16 +2,16 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NMKVS8S"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-<header class="navbar-fixed">
-  <nav class="white">
+<header class="navbar">
+  <nav class="blue darken-3">
     <div class="container">
       <div class="nav-wrapper valign-wrapper">
-        <a href=/ class="brand-logo black-text"><img src="/logo.svg" /></a>
+        <a href=/ class="brand-logo black-text"><img src="/logo-white.svg" /></a>
         <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul id="nav-mobile" class="hide-on-med-and-down right green-text">
+        <ul id="nav-mobile" class="hide-on-med-and-down right">
           {{ $currentPage := . }}
           {{ range .Site.Menus.main }}
-            <li><a href="{{ .URL }}" title="{{ .Title }}">
+            <li><a class="white-text" href="{{ .URL }}" title="{{ .Title }}">
             {{- .Name -}}
             </a></li>
           {{ end }}
