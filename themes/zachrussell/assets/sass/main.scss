@@ -121,12 +121,20 @@ img {
   figure {
     margin-top: 2.5em;
     margin-bottom: 2.5em;
+    @media (max-width: 500px) {
+      margin-left: 0;
+      margin-right: 0;
+    }
   }
   img {
     display: block;
     max-width: 150%;
     margin-left: -25%;
     margin-bottom: 0.5em;
+    @media (max-width: 500px) {
+      width: calc(100% + 50px);
+      margin-left: -25px;
+    }
   }
 }
 
@@ -152,13 +160,15 @@ html {
     @media (max-width: 500px) {
       font-size: 2.5rem;
     }
-    &:before {
-      content: "";
-      height: 3px;
-      width: 50px;
-      background: white;
-      display: block;
-      margin: 10px auto;
+    &.notch {
+      &:before {
+        content: "";
+        height: 3px;
+        width: 50px;
+        background: white;
+        display: block;
+        margin: 10px auto;
+      }
     }
   }
 }
