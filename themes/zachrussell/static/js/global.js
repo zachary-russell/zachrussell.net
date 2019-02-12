@@ -40,3 +40,17 @@ function sendData() {
     }
   } );
 }
+
+// Navbar Animation
+window.onscroll = function changeNav() {
+  var scrollPosY = window.pageYOffset | document.body.scrollTop;
+
+  var navBar = document.getElementById( 'navBar' );
+  if ( 70 < scrollPosY && 200 > scrollPosY ) {
+    navBar.className = 'navbar-stick';
+  } else if ( 200 < scrollPosY ) {
+    navBar.className = 'navbar-stick show';
+  } else if ( 200 >= scrollPosY ) {
+    navBar.className = 'navbar';
+  }
+};
