@@ -145,6 +145,10 @@ html {
   height: calc(100vh);
 }
 .hero {
+  img {
+    border-radius: 100px;
+    box-shadow: 4px 4px 20px 1px rgba(0, 0, 0, 0.85);
+  }
   padding-right: 25px;
   padding-left: 25px;
   h3 {
