@@ -18,6 +18,8 @@ Back in 2016 I went through a renissance of sorts when it comes to my productivi
 
 I went and read the book Deep Work by Cal Newport. This book had a profound impact on my understanding of how I work.
 
+{{< figure src="https://placehold.it/1200x400.png" title="Placeholder" >}}
+
 I work from a coworking space in Old City Philadelphia, Indy Hall. Indy Hall is an amazing space to work with great people and an even greater community. The only downside is that the layout of the space is a giant open office plan. This means that I would often find myself getting distracted by other people and get pulled into conversations when I _should_ be working or getting distracted by the general buzzing around The Hall. I started to think of ways that I could would more deeply at Indy Hall.
 
 ## The Bose QC-35

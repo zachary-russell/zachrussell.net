@@ -51,6 +51,7 @@ nav {
 
   // Collapse button
   .sidenav-trigger {
+    color: white;
     float: left;
     position: relative;
     z-index: 1;
@@ -157,7 +158,7 @@ nav {
         transition: all 0.3s ease;
       }
       &:hover {
-        color: color("green", "base");
+        color: color("blue", "darken-4");
         &:after {
           visibility: visible;
           background: #d3d3d3;

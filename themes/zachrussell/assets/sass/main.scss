@@ -106,12 +106,27 @@ img {
   margin-top: 3px;
 }
 
-.post-content {
-  background: white;
-  @media (min-width: 900px) {
+.intro-image {
+  img {
     box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.5);
     margin-top: -75px;
     border-radius: 5px;
+  }
+}
+.post-content {
+  max-width: 700px;
+  padding: 25px;
+  margin: 50px auto;
+  letter-spacing: 1px;
+  figure {
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+  }
+  img {
+    display: block;
+    max-width: 150%;
+    margin-left: -25%;
+    margin-bottom: 0.5em;
   }
 }
 
@@ -122,6 +137,8 @@ html {
   height: calc(100vh);
 }
 .hero {
+  padding-right: 25px;
+  padding-left: 25px;
   h3 {
     margin: 0;
     font-size: 20px;
@@ -130,8 +147,19 @@ html {
   }
   h1 {
     margin-top: 10px;
-    line-height: 0.9;
-    font-weight: 600;
+    font-weight: 300;
+    max-width: 1140px;
+    @media (max-width: 500px) {
+      font-size: 2.5rem;
+    }
+    &:before {
+      content: "";
+      height: 3px;
+      width: 50px;
+      background: white;
+      display: block;
+      margin: 10px auto;
+    }
   }
 }
 header {
@@ -148,6 +176,7 @@ nav {
   position: absolute;
   top: 0;
   box-shadow: none;
+  z-index: 99999;
 }
 .navbar-stick nav {
   position: fixed;
@@ -160,4 +189,14 @@ nav {
   transform: scaleY(1);
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
     0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+figcaption h4 {
+  text-align: center;
+  font-size: 1em;
+  font-weight: normal;
+  font-weight: 300;
+}
+.fd-col {
+  flex-direction: column;
 }

@@ -10,7 +10,7 @@
   height: -moz-calc(100%); //Temporary Firefox Fix
   padding-bottom: 60px;
   background-color: $sidenav-bg-color;
-  z-index: 999;
+  z-index: 99999999;
   overflow-y: auto;
   will-change: transform;
   backface-visibility: hidden;
@@ -77,8 +77,8 @@
     }
 
     & > i,
-    & > [class^='mdi-'],
-    li > a > [class*='mdi-'],
+    & > [class^="mdi-"],
+    li > a > [class*="mdi-"],
     & > i.material-icons {
       float: left;
       height: $sidenav-item-height;
