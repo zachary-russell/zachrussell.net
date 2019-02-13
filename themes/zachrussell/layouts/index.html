@@ -32,7 +32,7 @@
     <div class="container">
       <h2>Recent Articles</h2>
       <div class="articles">
-        {{ range first 5 (where .Pages "Section" "blog") }}
+        {{ range first 5 (where .Pages "Section" "posts") }}
         <div class="article">
           <div class="byline">{{ .Date.Month }} {{ .Date.Day }}, {{ .Date.Year }} | {{ range .Params.categories }}{{ . }}{{ end }}</div>
           <h3><a href={{ .Permalink }}>{{ .Title }}</a></h3>
