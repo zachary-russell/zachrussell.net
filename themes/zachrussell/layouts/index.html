@@ -28,15 +28,22 @@
       </div>
     </div>
   </section>
-  <section class="recent-articles white-text blue darken-3">
+  <section class="recent-articles">
     <div class="container">
-      <h2 class="white-text">Recent Articles</h2>
-      <div class="articles">
-        {{ range first 5 (where .Pages "Section" "posts") }}
-        <div class="article">
+      <h2 class="text-blue darken-3">Recent Articles</h2>
+      <div class="row articles">
+        {{ range first 3 (where .Pages "Section" "posts") }}
+			<a href={{ .Permalink }}>
+        <div class="col s12 m4 article">
+			  {{ if .Param "header_image" }}
+					<img src=" {{ .Param "header_image" }}" />
+				{{ else }}
+					<img src="/images/default-header.png" />
+				{{ end }}
           <div class="byline">{{ .Date.Month }} {{ .Date.Day }}, {{ .Date.Year }} | {{ range .Params.categories }}{{ . }}{{ end }}</div>
-          <h3><a href={{ .Permalink }}>{{ .Title }}</a></h3>
+          <h3>{{ .Title }}</h3>
         </div>
+		  </a>
         {{ end }}
         
       </div>

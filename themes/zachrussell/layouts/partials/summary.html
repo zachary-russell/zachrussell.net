@@ -1,8 +1,12 @@
 <div class="card-image">
-  <img src="https://picsum.photos/300/200">
+	{{ if .Param "header_image" }}
+	<img src=" {{ .Param "header_image" }}" />
+	{{ else }}
+	<img src="/images/default-header.png" />
+	{{ end }}
 </div>
 <div class="card-content">
-  <div class="card-title">
-    <a href="{{ .URL }}" class="blue-text text-darken-3">{{ .Title }}</a>
-  </div>
+	<div class="card-title">
+		<a href="{{ .URL }}" class="blue-text text-darken-3">{{ .Title }}</a>
+	</div>
 </div>
