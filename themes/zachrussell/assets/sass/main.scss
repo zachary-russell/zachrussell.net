@@ -142,7 +142,10 @@ html {
   letter-spacing: 0.5px;
 }
 .fh {
-  height: calc(100vh);
+  height: calc(80vh);
+  @media #{$small-and-down} {
+    height: initial;
+  }
 }
 .hero {
   img {

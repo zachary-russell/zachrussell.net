@@ -8,10 +8,10 @@
 			 <p>I am a web developer and online marketer from Philadelphia who is passionate about solving business problems through technology.</p>
 			 <div class="button-bar">
 				<a href="/contact" class="btn btn-large orange darken-2">Hire Me</a>
-				<a href="/about-me" class="btn btn-large plain">About Me</a>
+				<a href="/about-me" class="white-text">Learn More...</a>
 			 </div>
 		  </div>
-		  <div class="col s12 m4">
+		  <div class="col s12 m4 hide-on-small-and-down">
 		 	<img src="/images/zachary-russell.jpg"> 
 		  </div>
 	  </div>
@@ -30,7 +30,7 @@
   </section>
   <section class="recent-articles white-text blue darken-3">
     <div class="container">
-      <h2>Recent Articles</h2>
+      <h2 class="white-text">Recent Articles</h2>
       <div class="articles">
         {{ range first 5 (where .Pages "Section" "posts") }}
         <div class="article">
