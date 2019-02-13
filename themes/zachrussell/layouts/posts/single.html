@@ -1,6 +1,7 @@
 {{ define "main" }}
 <section class="hero blue darken-3 fd-col">
-	<h1 class="center white-text">{{ .Title }}</h1>
+	<span class="postmeta">Published: {{ .PublishDate.Format "1/2/2006" }} in {{ range .Params.categories }}{{ . }}{{ end }}<Paste></span>
+	<h1 class="notch center white-text">{{ .Title }}</h1>
 </section>
 <article>
 	<div class="container intro-image">

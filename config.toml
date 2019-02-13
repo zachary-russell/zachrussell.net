@@ -15,7 +15,8 @@ enableRobotsTXT = true
     
 
 [permalinks]
-    post = "/blog/:title/"
+    posts = "/blog/:slug/"
+	 uglyurls = true
 
 
 [menu]
