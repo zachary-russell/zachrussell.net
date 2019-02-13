@@ -147,6 +147,9 @@ nav {
           line-height: inherit;
         }
       }
+      &:last-child:after {
+        display: none;
+      }
       &:after {
         content: "";
         display: block;

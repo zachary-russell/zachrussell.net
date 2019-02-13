@@ -11,7 +11,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <ul id="nav-mobile" class="hide-on-med-and-down right">
           {{ $currentPage := . }}
           {{ range .Site.Menus.main }}
-            <li><a class="white-text" href="{{ .URL }}" title="{{ .Title }}">
+			 <li><a class="white-text {{ if eq .Identifier "Contact" }}btn orange darken-2 {{ end }}" href="{{ .URL }}" title="{{ .Title }}">
             {{- .Name -}}
             </a></li>
           {{ end }}
