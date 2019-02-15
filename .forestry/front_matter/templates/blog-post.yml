@@ -1,0 +1,11 @@
+---
+label: Blog Post
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+- type: boolean
+  name: toggle_me
+  label: Toggle Me
