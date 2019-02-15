@@ -9,3 +9,5 @@ fields:
 - type: boolean
   name: toggle_me
   label: Toggle Me
+pages:
+- content/posts/The Post.md
