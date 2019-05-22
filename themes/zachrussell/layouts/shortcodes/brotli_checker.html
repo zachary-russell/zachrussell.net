@@ -1,0 +1,52 @@
+<div id="brotli-checker">
+    <form v-on:submit.prevent="brotliCheck" action=# method="POST">
+        <div class="row">
+            <div class="input-field col s12 m8">
+                <i class="material-icons prefix">link</i>
+                <input id="brotli_url" v-model="url" name="brotli_url" type="url" class="validate">
+                <label for="brotli_url">URL to Test</label>
+            </div>
+            <div class="input-field col s12 m4">
+                <button class="btn orange darken-2" type="submit">Check URL</button>
+            </div>
+
+        </div>
+    </form>
+    <div class="row" v-if="supportsBr !== null" :class="[ supportsBr ? 'green lighten-4' : 'red' ]">
+        <h2>Results</h2>
+        <p>The URL <span v-if="supportsBr">supports </span><span v-else>does not
+                support</span> Brotli.</p>
+    </div>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+    var brotliChecker = new Vue({
+        el: '#brotli-checker',
+        data: {
+            url: '',
+            supportsBr: null,
+            error: null
+
+        },
+        methods: {
+            brotliCheck: function () {
+                var urlToCrawl = {
+                    url: this.url,
+                }
+                fetch('https://us-central1-zach-russell-seo-tools.cloudfunctions.net/isBrotli', {
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    mode: 'cors',
+                    method: 'POST',
+                    body: JSON.stringify(urlToCrawl)
+                }).then(res => {
+                    return res.json();
+                }).then(response => {
+                    this.supportsBr = response["supports-br"];
+                })
+            }
+        }
+    })
+</script>

@@ -1,1 +1,4 @@
 theme = "zachrussell"
+
+[params]
+	color = "blue darken-3"
