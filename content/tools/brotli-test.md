@@ -32,6 +32,7 @@ Put simply, Brotli is more efficient than gzip (the most common copression forma
 ## Brotli FAQs
 
 **What browsers currently support Brotli?**
+
 According to <a href="https://caniuse.com/#feat=brotli" target=_blank>Caniuse</a> Brotli is supported by over 90% of users. All modern web browsers support Brotli compression:
 
 - Microsoft Edge
