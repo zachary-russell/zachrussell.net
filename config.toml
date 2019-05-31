@@ -3,6 +3,7 @@ title = "Zach Rusell: Web Developer & SEO from Philadelphia"
 baseURL = "https://zachrussell.net"
 theme = "zachrussell"
 canonifyURLs = true
+enableGitInfo = true
 enableRobotsTXT = true
 [params]
   description= "Zachary Russell is an Entrepreneur, Software Engineer & SEO from Philadelphia. Learn more about Zach today"
