@@ -4,5 +4,5 @@ date: ":git"
 draft: true
 ---
 
-{{ date }}
 This is a foo
+this is a bar
