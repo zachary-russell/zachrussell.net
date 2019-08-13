@@ -1,6 +1,6 @@
 {{ define "main" }}
 <section class="hero blue darken-3 fd-col">
-	{{ .GitInfo.AuthorDate}}
+	{{ .GitInfo}}
     <h1 class="center white-text">{{ .Title }}</h1>
     {{ if isset .Params "subtitle"}}
     <p class="subtitle">{{ .Params.subtitle }}</p>
