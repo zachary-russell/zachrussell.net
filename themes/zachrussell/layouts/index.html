@@ -1,20 +1,20 @@
 {{ define "main" }}
 <section class="hero fh {{ $.Site.Params.color}}">
   <div class="container">
-	  <div class="row valign-wrapper">
-		  <div class="col s12 m8">
-			  <h3 class="white-text">Hi, I'm Zach</h3>
-			 <h1 class="white-text">I build things on the web</h1>
-			 <p>I am a web developer and online marketer from Philadelphia who is passionate about solving business problems through technology.</p>
-			 <div class="button-bar">
-				<a href="/contact" class="btn btn-large orange darken-2">Hire Me</a>
-				<a href="/about-me" class="white-text">Learn More...</a>
-			 </div>
-		  </div>
-		  <div class="col s12 m4 hide-on-small-and-down">
-		 	<img src="/images/zachary-russell.jpg"> 
-		  </div>
-	  </div>
+    <div class="row valign-wrapper">
+      <div class="col s12 m8">
+        <h3 class="white-text">Hi, I'm Zach</h3>
+        <h1 class="white-text">I build things on the web</h1>
+        <p>I am a web developer and online marketer from Philadelphia who is passionate about solving business problems through technology.</p>
+        <div class="button-bar">
+          <a href="/contact" class="btn btn-large orange darken-2">Hire Me</a>
+          <a href="/about-me" class="white-text">Learn More...</a>
+        </div>
+      </div>
+      <div class="col s12 m4 hide-on-small-and-down">
+        <img src="/images/zachary-russell.jpg"> 
+      </div>
+    </div>
   </div>
   </div>
   <section class="brand-bar">
@@ -33,19 +33,24 @@
       <h2 class="text-blue darken-3">Recent Articles</h2>
       <div class="row articles">
         {{ range first 3 (where .Pages "Section" "posts") }}
-			<a href={{ .Permalink }}>
-        <div class="col s12 m4 article">
-			  {{ if .Param "header_image" }}
-					<img src=" {{ .Param "header_image" }}" />
-				{{ else }}
-					<img src="/images/default-header.png" />
-				{{ end }}
-          <div class="byline">{{ .Date.Month }} {{ .Date.Day }}, {{ .Date.Year }} | {{ range .Params.categories }}{{ . }}{{ end }}</div>
-          <h3>{{ .Title }}</h3>
-        </div>
-		  </a>
+        <a href={{ .Permalink }}>
+          <div class="col s12 m4 article">
+          {{ if .Param "header_image" }}
+            {{ with .Param "header_image" }}
+                {{ $imageResource := ($.Site.GetPage "section" "posts/images").Resources.GetMatch  (strings.TrimPrefix "/images/" . ) }}
+                {{ $resized := $imageResource.Resize "600x"}}
+                <img src="{{ $resized.RelPermalink }}">
+            {{ end }}
+          {{ else }}
+            {{ $image := "/images/default-header.png" }}
+            <img src="{{ $image }}" />
+          {{ end }}
+            <div class="byline">{{ .Date.Month }} {{ .Date.Day }}, {{ .Date.Year }} | {{ range .Params.categories }}{{ . }}{{ end }}</div>
+            <h3>{{ .Title }}</h3>
+          </div>
+        </a>
         {{ end }}
-        
+
       </div>
 
     </div>
