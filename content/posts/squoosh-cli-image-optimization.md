@@ -49,12 +49,52 @@ Now this is really cool and useful, however, this is quite a manual process. Luc
 
 For example here is how I would optimize this image programatically (without resizing)
 
+{{< highlight bash>}}
+$ squoosh-cli --mozjpeg \
+'{ 
+   "quality":75, 
+   "baseline":false, 
+   "arithmetic":false, 
+   "progressive":true, 
+   "op timize_coding":true, 
+   "smoothing":0, 
+   "color_space":3, 
+   "quant_table":3, 
+   "trellis_multipass":false, 
+   "trel lis_opt_zero":false, 
+   "trellis_opt_table":false, 
+   "trellis_loops":1, 
+   "auto_subsample":true, 
+   "chroma_sub sample":2, 
+   "separate_chroma_quality":false, 
+   "chroma_quality":75 
+}' \
+~/Downloads/actionvance-guy5aS3GvgA-unsplash.jpg
+{{< / highlight >}}
 
-{{< gist zachary-russell 7a2ab6f180f702e1b00e27712937e5c8 >}}
 
+To bulk optimize, all you need to do as add a wildcard match on the end and set it to output to a new directory `output/`
 
-To bulk optimize, all you need to do as add a wildcard match on the end and set it to output to a new directory `-d output ./*`
-
-
-{{< gist zachary-russell b6ed7baf728061991a83506e3f9d044a >}}
+{{< highlight bash>}}
+$ squoosh-cli --mozjpeg \
+'{ 
+   "quality":75, 
+   "baseline":false, 
+   "arithmetic":false, 
+   "progressive":true, 
+   "op timize_coding":true, 
+   "smoothing":0, 
+   "color_space":3, 
+   "quant_table":3, 
+   "trellis_multipass":false, 
+   "trel lis_opt_zero":false, 
+   "trellis_opt_table":false, 
+   "trellis_loops":1, 
+   "auto_subsample":true, 
+   "chroma_sub sample":2, 
+   "separate_chroma_quality":false, 
+   "chroma_quality":75 
+}' \
+~/Downloads/actionvance-guy5aS3GvgA-unsplash.jpg -d output ./*
+{{< / highlight >}}
 
