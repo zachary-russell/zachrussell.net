@@ -232,8 +232,15 @@ figcaption h4 {
   }
 }
 
+article ol {
+padding: 0; 
+}
 article li {
-  list-style-type: disc;
+  margin-left: 1.5rem!important;
+}
+article ul li {
+  padding: 0;
+  list-style-type: disc!important;
 }
 .highlight {
   margin-top: 2rem;
