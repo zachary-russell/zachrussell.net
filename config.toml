@@ -5,6 +5,8 @@ theme = "zachrussell"
 canonifyURLs = true
 enableGitInfo = true
 enableRobotsTXT = true
+[markup.goldmark.renderer]
+unsafe= true
 [params]
   description= "Zachary Russell is an Entrepreneur, Software Engineer & SEO from Philadelphia. Learn more about Zach today"
   [params.publisher]
