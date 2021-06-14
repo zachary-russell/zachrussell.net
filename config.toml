@@ -38,6 +38,13 @@ unsafe= true
     weight = "2"
 
   [[menu.main]]
+    identifier = "Flutter Development"
+    title = "Flutter Development Services"
+    name = "Flutter Development"
+    url = "/flutter-developer-philadelphia"
+    weight = "2"
+
+  [[menu.main]]
     identifier = "Blog"
     title = "Blog"
     name = "Blog"
