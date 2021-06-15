@@ -35,10 +35,9 @@
         {{ range first 3 (where .Site.RegularPages "Section" "posts") }}
         <a href={{ .Permalink }}>
           <div class="col s12 m4 article">
-          {{ if .Params.header_image }}
-            {{ with .Params.header_image }}
-                {{ $imageResource := ($.Site.GetPage "Section" "images").Resources.GetMatch  (strings.TrimPrefix "/images/" . ) }}
-                {{ $resized := $imageResource.Resize "600x" }}
+          {{ if .Resources.GetMatch "header" }}
+            {{ with .Resources.GetMatch "header" }}
+                {{ $resized := .Resize "600x" }}
                 <img src="{{ $resized.RelPermalink }}" />
             {{ end }}
 

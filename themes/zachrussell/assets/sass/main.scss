@@ -260,3 +260,8 @@ code {
   color: white;
   padding: .1rem .5rem;
 }
+pre code {
+  background: none; 
+  padding: none;
+  overflow: scroll;
+}
