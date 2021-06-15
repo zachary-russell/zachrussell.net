@@ -1,6 +1,9 @@
 <div class="card-image">
-	{{ if .Param "header_image" }}
-	<img src=" {{ .Param "header_image" }}" />
+	{{ if .Resources.GetMatch "header" }}
+    {{ with .Resources.GetMatch "header" }}
+        {{ $resized := .Resize "600x" }}
+        <img src="{{ $resized.RelPermalink }}" />
+        {{ end }}
 	{{ else }}
 	<img src="/images/default-header.png" />
 	{{ end }}

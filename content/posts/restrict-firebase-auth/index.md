@@ -1,8 +1,15 @@
 ---
 title: 'Restrict Firebase Auth Login Domains'
-seo_title: Restrict Firebase Auth Login Domains | Firebase Security
-date: 2020-03-23T11:47:10-04:00
-draft: true
+seo_title: Restrict Firebase Google Auth Login Domains | Firebase Security - Zach Russell
+slug: firebase-auth-restrict-login-by-domain 
+description: 'Learn how to restrict logins with Firebase Auth and Google Sign In to specfic domain names.' 
+date: 2021-06-15
+categories:
+- Google Cloud
+resources:
+- src: laptop.jpg
+  name: header
+header_image: "laptop.jpg"
 ---
 
 ## A Bit of Background...
@@ -114,3 +121,12 @@ function validateAccountCheck() {
 
 {{< /highlight >}}
 ```
+
+Here is a breakdown of what is going on. First a few definitions:
+
+- `googleLogin` is the method that gets called when a user clicks the "sign in with Google" button
+- `provider.setCustomParameters` pre fills the login form with the login domain.
+- `signInWithPopup` launches the Google sign in dialog in a new window. After signing in it calls the `validateAccountCheck` function. If it succeeds do something, else log out.
+- `validateAccountCheck` gets the current (signed in) user and sets the user's name, email, and photo from their Google account to their record in the Employees collection.
+
+As a result of the security rules set above a user is only allowed to write to a record in the `Employees` collection if the `userId` of the user and the `uid` of the record match.
